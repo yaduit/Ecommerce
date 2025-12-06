@@ -6,6 +6,7 @@ const userRouter = require('./routes/userRouter');
 const ownerRouter = require('./routes/ownerRouter');
 const productRouter = require('./routes/productRouter');
 
+require('dotenv').config();
 const db = require('./config/mongoose-connection');
 app.set('view engine', 'ejs');
 
